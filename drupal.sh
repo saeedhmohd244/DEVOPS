@@ -70,7 +70,6 @@ CREATE DATABASE drupal;
 CREATE USER 'drupaluser'@'localhost' IDENTIFIED BY 'your_password';
 GRANT ALL PRIVILEGES ON drupal.* TO 'drupaluser'@'localhost';
 FLUSH PRIVILEGES;
-EXIT;
 EOF
 
 echo "Drupal setup completed. Please access the site and finalize the installation."
